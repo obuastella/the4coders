@@ -13,23 +13,23 @@ const Navbar = () => {
   // Array containing navigation items
   const navItems = [
     { id: 1, text: "Home" },
-    { id: 2, text: "Company" },
-    { id: 3, text: "Resources" },
-    { id: 4, text: "About" },
+    { id: 2, text: "About" },
+    { id: 3, text: "Services" },
+    { id: 4, text: "Blog" },
     { id: 5, text: "Contact" },
   ];
 
   return (
-    <div className="bg-black flex justify-between items-center h-24 px-4 text-white">
+    <div className="bg-bgColor shadow flex justify-between items-center h-20 px-4">
       {/* Logo */}
-      <h1 className="w-full text-3xl font-bold text-[#00df9a]">LOGO.</h1>
+      <h1 className="w-full text-3xl font-bold text-btnColor">LOGO.</h1>
 
       {/* Desktop Navigation */}
       <ul className="hidden md:flex">
         {navItems.map((item) => (
           <li
             key={item.id}
-            className="p-4 hover:bg-[#00df9a] rounded-xl m-2 cursor-pointer duration-300 hover:text-black"
+            className="p-4 hover:bg-btnColor rounded-xl m-2 cursor-pointer duration-300 hover:text-white"
           >
             {item.text}
           </li>
