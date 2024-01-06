@@ -4,7 +4,7 @@ function App() {
   return (
     <div className="">
       <Navbar />
-      <h1 className="text-center text-btnColor font-bold bg-black h-screen">
+      <h1 className="text-center text-btnColor font-bold h-screen">
         Hello World
       </h1>
     </div>
