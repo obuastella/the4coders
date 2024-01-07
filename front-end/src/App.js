@@ -3,7 +3,7 @@ import "./index.css";
 import Home from "./pages/Home";
 function App() {
   return (
-    <div className="">
+    <div className="max-w-[1550px] m-auto">
       <Navbar />
       <Home />
     </div>
