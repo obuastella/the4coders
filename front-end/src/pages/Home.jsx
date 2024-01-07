@@ -1,8 +1,9 @@
 function Home() {
   return (
     <div className=" h-screen">
-      <section className="hero-section w-[90%] m-auto border-2 border-red-500 flex flex-col md:flex-row md:flex-wrap">
-        <div className="hero-text mt-14 w-full md:w-2/4 flex flex-col justify-center gap-10 border-2 border-green-500">
+      {/* Hero Section */}
+      <section className="hero-section w-[90%] m-auto flex flex-col md:flex-row md:flex-wrap">
+        <div className="hero-text mt-14 w-full md:w-2/4 flex flex-col justify-center gap-10">
           <h1 className="text-3xl font-semi-bold sm:text-5xl md:text-5xl lg-7xl">
             Great <span className="font-bold text-primaryColor">Product</span>{" "}
             is built by great{" "}
@@ -16,10 +17,14 @@ function Home() {
             Let's get started!
           </button>
         </div>
-        <div className="hero-body flex justify-center items-center w-full md:w-2/4 max-h-5/6 mt-14 border-2 border-blue-200">
+        <div className="hero-body flex justify-center items-center w-full md:w-2/4 max-h-5/6 mt-14">
           <img className="" src="assets/images/hero-img.png" alt="team" />
         </div>
       </section>
+      {/* End Hero Section */}
+
+      {/* Services */}
+      <section>{/* <h1>Services we offer</h1> */}</section>
     </div>
   );
 }
