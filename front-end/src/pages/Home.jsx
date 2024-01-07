@@ -4,7 +4,7 @@ function Home() {
       {/* Hero Section */}
       <section className="hero-section w-[90%] m-auto flex flex-col md:flex-row md:flex-wrap">
         <div className="hero-text mt-14 w-full md:w-2/4 flex flex-col justify-center gap-10">
-          <h1 className="text-3xl font-semi-bold sm:text-5xl md:text-5xl lg-7xl">
+          <h1 className="text-3xl font-semibold sm:text-5xl md:text-5xl lg:text-7xl">
             Great <span className="font-bold text-primaryColor">Product</span>{" "}
             is built by great{" "}
             <span className="font-bold text-primaryColor">teams</span>.
@@ -24,7 +24,11 @@ function Home() {
       {/* End Hero Section */}
 
       {/* Services */}
-      <section>{/* <h1>Services we offer</h1> */}</section>
+      <section className="services w-[90%] h-5/6 m-auto">
+        <h1 className="font-semibold text-3xl text-center mt-8">
+          Services we offer
+        </h1>
+      </section>
     </div>
   );
 }
