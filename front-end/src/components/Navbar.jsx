@@ -22,14 +22,14 @@ const Navbar = () => {
   return (
     <div className="bg-bgColor shadow flex justify-between items-center h-20 px-4">
       {/* Logo */}
-      <h1 className="w-full text-3xl font-bold text-btnColor">LOGO.</h1>
+      <h1 className="w-full text-3xl font-bold text-primaryColor">LOGO.</h1>
 
       {/* Desktop Navigation */}
       <ul className="hidden md:flex">
         {navItems.map((item) => (
           <li
             key={item.id}
-            className="p-4 hover:bg-btnColor rounded-xl m-2 cursor-pointer duration-300 hover:text-white"
+            className="p-4 hover:bg-primaryColor rounded-xl m-2 cursor-pointer duration-300 hover:text-white"
           >
             {item.text}
           </li>
@@ -50,13 +50,15 @@ const Navbar = () => {
         }
       >
         {/* Mobile Logo */}
-        <h1 className="w-full text-3xl font-bold text-btnColor m-4">REACT.</h1>
+        <h1 className="w-full text-3xl font-bold text-primaryColor m-4">
+          REACT.
+        </h1>
 
         {/* Mobile Navigation Items */}
         {navItems.map((item) => (
           <li
             key={item.id}
-            className="p-4 border-b rounded-xl hover:bg-btnColor duration-300 hover:text-white cursor-pointer border-gray-600"
+            className="p-4 border-b rounded-xl hover:bg-primaryColor duration-300 hover:text-white cursor-pointer border-gray-600"
           >
             {item.text}
           </li>
