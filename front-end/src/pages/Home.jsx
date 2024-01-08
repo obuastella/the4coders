@@ -1,3 +1,5 @@
+import { Card } from "../components/Card";
+
 function Home() {
   return (
     <div className=" h-screen">
@@ -24,10 +26,13 @@ function Home() {
       {/* End Hero Section */}
 
       {/* Services */}
-      <section className="services w-[90%] h-5/6 m-auto">
-        <h1 className="font-semibold text-3xl text-center mt-8">
-          Services we offer
-        </h1>
+      <section className="services w-full h-5/6 bg-bgColor">
+        <div className="w-[90%] h-5/6 mx-auto border-2 ">
+          <h1 className="font-semibold text-3xl text-center my-14">
+            Services we offer
+          </h1>
+          <Card />
+        </div>
       </section>
     </div>
   );
