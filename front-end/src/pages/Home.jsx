@@ -1,4 +1,5 @@
-import { Card } from "../components/Card";
+import CarouselPage from "../components/CarouselPage";
+// import Carousel, { Card } from "../components/CarouselPage";
 
 function Home() {
   return (
@@ -31,7 +32,7 @@ function Home() {
           <h1 className="font-semibold text-3xl text-center my-14">
             Services we offer
           </h1>
-          <Card />
+          <CarouselPage />
         </div>
       </section>
     </div>
