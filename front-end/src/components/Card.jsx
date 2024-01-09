@@ -5,14 +5,46 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 export const Card = () => {
+  function SampleNextArrow(props) {
+    const { className, style, onClick } = props;
+    return (
+      <div
+        className={className}
+        style={{
+          ...style,
+          background: "black",
+          borderRadius: "20px",
+        }}
+        onClick={onClick}
+      />
+    );
+  }
+  function SamplePrevArrow(props) {
+    const { className, style, onClick } = props;
+    return (
+      <div
+        className={className}
+        style={{ ...style, background: "black", borderRadius: "20px" }}
+        onClick={onClick}
+      />
+    );
+  }
   const settings = {
     className: "center",
     centerMode: true,
     infinite: true,
     centerPadding: "60px",
     slidesToShow: 3,
-    speed: 500,
+    dots: true,
+    slidesToScroll: 1,
+    autoplay: true,
+    speed: 5000,
+    autoplaySpeed: 2000,
+    cssEase: "linear",
+    nextArrow: <SampleNextArrow />,
+    prevArrow: <SamplePrevArrow />,
   };
+
   return (
     <div className="m-auto">
       <div className="mt-20">
