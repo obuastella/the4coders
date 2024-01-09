@@ -7,14 +7,17 @@ export const Card = () => {
     <div className="w-3/4 m-auto">
       <div className="mt-20">
         {data.map((d) => (
-          <div className="w-3/4 bg-bgColor border-2 h-[450px] text-black rounded-xl">
-            <div className="h-56 rounded-t-xl bg-indigo-700 flex justify-center items-center">
-              <img src={d.img} alt="" />{" "}
-            </div>
+          <div className="w-96 bg-bgColor border-2 p-4 text-black rounded-xl">
+            {/* <div className=" rounded-full bg-indigo-700 flex justify-center items-center"> */}
+            <img
+              className="rounded-full bg-indigo-700 p-2"
+              src={d.img}
+              alt=""
+            />{" "}
+            {/* </div> */}
             <div className="flex flex-col justify-center items-center gap-4 p-4">
-              <p>{d.name}</p>
+              <p className="text-lg font-semibold">{d.name}</p>
               <p>{d.review}</p>
-              <button>Read More</button>
             </div>
           </div>
         ))}
