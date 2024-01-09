@@ -7,7 +7,7 @@ export const Card = () => {
     <div className="w-3/4 m-auto">
       <div className="mt-20">
         {data.map((d) => (
-          <div className="w-3/4">
+          <div className="w-3/4 bg-bgColor border-2 h-[450px]">
             <div>
               <img src={d.img} alt="" />{" "}
             </div>
