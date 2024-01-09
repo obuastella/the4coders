@@ -26,7 +26,7 @@ function Home() {
       {/* End Hero Section */}
 
       {/* Services */}
-      <section className="services w-full h-5/6 bg-bgColor">
+      <section className="services w-full h-5/6 bg-blue-400">
         <div className="w-[90%] h-5/6 mx-auto border-2 ">
           <h1 className="font-semibold text-3xl text-center my-14">
             Services we offer
