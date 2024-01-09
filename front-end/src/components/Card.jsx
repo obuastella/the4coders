@@ -1,5 +1,3 @@
-// Firstly we create an array of objects that will contain these cards
-// then iterate through that array using a map
 import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -33,7 +31,7 @@ export const Card = () => {
     className: "center",
     centerMode: true,
     infinite: true,
-    centerPadding: "60px",
+    centerPadding: "40px",
     slidesToShow: 3,
     dots: true,
     slidesToScroll: 1,
@@ -50,7 +48,7 @@ export const Card = () => {
       <div className="mt-20">
         <Slider {...settings}>
           {data.map((d) => (
-            <div className="w-96 bg-bgColor border-2 p-4 text-black rounded-xl">
+            <div className="w-96 h-1/4 bg-bgColor border-2 p-4 text-black rounded-xl">
               {/* <div className=" rounded-full bg-indigo-700 flex justify-center items-center"> */}
               <img
                 className="rounded-full bg-indigo-700 p-2"
