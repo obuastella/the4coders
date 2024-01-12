@@ -26,14 +26,16 @@ function Home() {
       {/* End Hero Section */}
 
       {/* Services */}
-      <section className="services w-full h-5/6 bgColor">
-        <div className="w-[90%] mx-auto ">
+      <section className="services w-full bgColor my-20">
+        <div className="w-[90%] mx-auto">
           <h1 className="font-semibold text-3xl text-center my-14">
             Services we offer
           </h1>
           <Card />
         </div>
       </section>
+      {/* Leading Companies */}
+      <section className="w-[90%] h-5/6 m-auto border-2 border-red-400"></section>
     </div>
   );
 }
