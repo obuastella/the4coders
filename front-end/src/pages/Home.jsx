@@ -37,7 +37,11 @@ function Home() {
       {/* Leading Companies */}
       <section className="w-[90%] h-5/6 m-auto border-2 border-red-400 flex flex-wrap">
         <div className="border-2 border-orange-200 h-5/6 w-1/2"></div>
-        <div className="border-2 border-blue-200 h-5/6 w-1/2"></div>
+        <img
+          className="border-2 border-blue-200 h-5/6 w-1/2"
+          src="assets/images/team1.png"
+          alt=""
+        />
       </section>
     </div>
   );
