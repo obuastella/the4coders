@@ -35,7 +35,9 @@ function Home() {
         </div>
       </section>
       {/* Leading Companies */}
-      <section className="w-[90%] h-5/6 m-auto border-2 border-red-400"></section>
+      <section className="w-[90%] h-5/6 m-auto border-2 border-red-400">
+        <div className="border-2 border-orange-200 h-5/6"></div>
+      </section>
     </div>
   );
 }
