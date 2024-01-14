@@ -41,8 +41,11 @@ function Home() {
             Leading Companies trust us{" "}
             <span className="font-bold"> to develop Software</span>
           </h2>
-          <p>
-            We <span>add development capacity</span> to teach teams
+          <p className="text-2xl font-extralight">
+            We <span>add development capacity</span> to tech teams. Our value
+            isn’t limited to building teams but is equally distributed across
+            the project lifecycle. We are a custom software development company
+            that guarantees the successful delivery of your project.
           </p>
         </div>
         <img
