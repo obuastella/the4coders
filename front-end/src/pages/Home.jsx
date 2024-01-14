@@ -41,6 +41,9 @@ function Home() {
             Leading Companies trust us{" "}
             <span className="font-bold"> to develop Software</span>
           </h2>
+          <p>
+            We <span>add development capacity</span> to teach teams
+          </p>
         </div>
         <img
           className="border-2 border-blue-200 h-5/6 w-1/2"
