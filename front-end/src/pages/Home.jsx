@@ -42,10 +42,14 @@ function Home() {
             <span className="font-bold"> to develop Software</span>
           </h2>
           <p className="text-2xl font-extralight">
-            We <span>add development capacity</span> to tech teams. Our value
-            isn’t limited to building teams but is equally distributed across
-            the project lifecycle. We are a custom software development company
-            that guarantees the successful delivery of your project.
+            We{" "}
+            <span className="text-secondaryColor">
+              add development capacity
+            </span>{" "}
+            to tech teams. Our value isn’t limited to building teams but is
+            equally distributed across the project lifecycle. We are a custom
+            software development company that guarantees the successful delivery
+            of your project.
           </p>
           <button className="text-primaryColor">
             See more Information &rarr;
