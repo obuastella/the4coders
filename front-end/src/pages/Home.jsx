@@ -47,6 +47,7 @@ function Home() {
             the project lifecycle. We are a custom software development company
             that guarantees the successful delivery of your project.
           </p>
+          <button>See more Information &rarr;</button>
         </div>
         <img
           className="border-2 border-blue-200 h-5/6 w-1/2"
