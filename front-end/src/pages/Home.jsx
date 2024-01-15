@@ -51,7 +51,7 @@ function Home() {
             software development company that guarantees the successful delivery
             of your project.
           </p>
-          <button className="text-primaryColor me-0 w-2/4">
+          <button className="text-primaryColor me-auto w-auto text-start">
             See more Information &rarr;
           </button>
         </div>
