@@ -35,8 +35,8 @@ function Home() {
         </div>
       </section>
       {/* Leading Companies */}
-      <section className="w-[90%] h-5/6 m-auto border-2 border-red-400 flex flex-col md:flex-wrap gap-8">
-        <div className="border-2 border-orange-200 h-5/6 w-full md:w-1/2 flex flex-col justify-center gap-7 m-auto">
+      <section className="w-[90%]  m-auto flex flex-col md:flex-row md:flex-wrap gap-8">
+        <div className="h-5/6 w-full md:w-1/2 flex flex-col justify-center gap-7 m-auto">
           <h2 className="text-5xl">
             Leading Companies trust us{" "}
             <span className="font-bold"> to develop Software</span>
@@ -56,7 +56,7 @@ function Home() {
           </button>
         </div>
         <img
-          className="border-2 border-blue-200 h-5/6 w-3/4 md:w-2/5 m-auto"
+          className="h-5/6 w-3/4 md:w-2/5 m-auto"
           src="assets/images/team1.png"
           alt="team"
         />
