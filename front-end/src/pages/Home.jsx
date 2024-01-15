@@ -36,7 +36,7 @@ function Home() {
       </section>
       {/* Leading Companies */}
       <section className="w-[90%] h-5/6 m-auto border-2 border-red-400 flex flex-wrap">
-        <div className="border-2 border-orange-200 h-5/6 w-1/2 flex flex-col  justify-center">
+        <div className="border-2 border-orange-200 h-5/6 w-1/2 flex flex-col justify-center gap-7">
           <h2 className="text-5xl">
             Leading Companies trust us{" "}
             <span className="font-bold"> to develop Software</span>
