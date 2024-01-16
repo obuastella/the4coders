@@ -58,7 +58,7 @@ function Home() {
         <img
           className="h-5/6 w-3/4 md:w-2/5 m-auto"
           src="assets/images/team1.png"
-          alt="team"
+          alt="teams"
         />
       </section>
     </div>
