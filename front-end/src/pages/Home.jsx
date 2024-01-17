@@ -37,11 +37,11 @@ function Home() {
       {/* Leading Companies */}
       <section className="w-[90%] mt-[13%] m-auto flex flex-col md:flex-row md:flex-wrap gap-8">
         <div className="h-5/6 w-full md:w-1/2 flex flex-col justify-center gap-7 m-auto">
-          <h2 className="text-5xl">
+          <h2 className="text-3xl md:text-5xl">
             Leading Companies trust us{" "}
             <span className="font-bold"> to develop Software</span>
           </h2>
-          <p className="text-2xl font-extralight">
+          <p className="text-lg md:text-2xl font-light">
             We{" "}
             <span className="text-secondaryColor">
               add development capacity
