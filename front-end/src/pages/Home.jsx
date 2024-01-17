@@ -61,6 +61,7 @@ function Home() {
           alt="teams"
         />
       </section>
+      <section className="border-2 border-pink-900 h-2/3 w-[90%] m-auto"></section>
     </div>
   );
 }
