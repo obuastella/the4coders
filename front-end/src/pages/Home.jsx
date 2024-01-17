@@ -61,7 +61,12 @@ function Home() {
           alt="teams"
         />
       </section>
-      <section className="border-2 border-pink-900 h-2/3 w-[90%] m-auto"></section>
+      <section className="border-2 border-pink-900 w-[90%] m-auto mt-[13%]">
+        <h2 className="text-3xl">
+          Meet the people <br />
+          <span className="font-bold"> We are Working With </span>
+        </h2>
+      </section>
     </div>
   );
 }
