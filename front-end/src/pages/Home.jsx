@@ -67,7 +67,11 @@ function Home() {
           <span className="font-bold"> We are Working With </span>
         </h2>
       </aside>
-      <section className="border-2 border-blue-700 h-1/5"></section>
+      <img
+        className="w-[100%] m-auto mt-[4%] rounded h-1/5"
+        src="assets/images/sponsor-img.png"
+        alt="team-img"
+      />
     </div>
   );
 }
