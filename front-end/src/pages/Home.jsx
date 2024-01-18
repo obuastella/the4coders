@@ -62,13 +62,13 @@ function Home() {
         />
       </section>
       <aside className="w-[90%] m-auto mt-[13%] mb-8">
-        <h2 className="text-3xl">
+        <h2 className="text-xl md:text-3xl">
           Meet the people <br />
           <span className="font-bold"> We are Working With </span>
         </h2>
       </aside>
       <img
-        className="w-[100%] m-auto mt-[4%] rounded h-1/5"
+        className="md:w-[100%] m-auto mt-[4%] rounded md:h-1/5"
         src="assets/images/sponsor-img.png"
         alt="team-img"
       />

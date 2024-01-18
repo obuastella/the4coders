@@ -44,7 +44,7 @@ export const Card = () => {
   };
 
   return (
-    <div className="m-auto">
+    <div className="m-auto contents">
       <div className="mt-20">
         <Slider {...settings}>
           {data.map((d) => (
