@@ -56,9 +56,9 @@ function Home() {
           </button>
         </div>
         <img
-          className="h-5/6 w-3/4 md:w-2/5 m-auto"
-          src="assets/images/team1.png"
-          alt="teams"
+          className="h-5/6 w-3/4 md:w-2/5 m-auto rounded"
+          src="assets/images/team2.jpg"
+          alt="team-img"
         />
       </section>
       <aside className="w-[90%] m-auto mt-[13%] mb-8">
