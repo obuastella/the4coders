@@ -72,6 +72,8 @@ function Home() {
         src="assets/images/sponsor-img.png"
         alt="team-img"
       />
+      {/* Why customers love us */}
+      <section className="border-2 border-red-800 w-[90%] h-3/5 m-auto"></section>
     </div>
   );
 }
