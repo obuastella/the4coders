@@ -4,8 +4,8 @@ function Home() {
   return (
     <div className=" h-screen">
       {/* Hero Section */}
-      <section className="hero-section w-[90%] m-auto flex flex-col md:flex-row md:flex-wrap">
-        <div className="hero-text mt-14 w-full md:w-2/4 flex flex-col justify-center gap-10">
+      <section className="w-[90%] m-auto flex flex-col md:flex-row md:flex-wrap">
+        <div className="mt-14 w-full md:w-2/4 flex flex-col justify-center gap-10">
           <h1 className="text-3xl font-semibold sm:text-5xl md:text-5xl lg:text-7xl">
             Great <span className="font-bold text-primaryColor">Product</span>{" "}
             is built by great{" "}
@@ -19,14 +19,14 @@ function Home() {
             Let's get started!
           </button>
         </div>
-        <div className="hero-body flex justify-center items-center w-full md:w-2/4 max-h-5/6 mt-14">
+        <div className="flex justify-center items-center w-full md:w-2/4 max-h-5/6 mt-14">
           <img className="" src="assets/images/hero-img.png" alt="team" />
         </div>
       </section>
       {/* End Hero Section */}
 
       {/* Services */}
-      <section className="services w-full bgColor my-24">
+      <section className="w-full bgColor my-24">
         <div className="w-[90%] mx-auto">
           <h1 className="font-semibold text-3xl text-center my-14">
             Services we offer
@@ -74,7 +74,7 @@ function Home() {
       />
       {/* Why customers love us */}
       <section className="border-2 border-red-800 w-[90%] h-3/5 m-auto">
-        <div className="line w-24 border-2 border-secondaryColor mx-auto mt-10 rounded"></div>
+        <div className="w-24 border-2 border-secondaryColor mx-auto mt-10 rounded"></div>
       </section>
     </div>
   );
