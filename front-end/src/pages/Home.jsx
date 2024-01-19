@@ -68,12 +68,14 @@ function Home() {
         </h2>
       </aside>
       <img
-        className="md:w-[100%] m-auto mt-[4%] rounded md:h-1/5"
+        className="md:w-[100%] m-auto mt-[4%] rounded md:h-1/5 mb-8"
         src="assets/images/sponsor-img.png"
         alt="team-img"
       />
       {/* Why customers love us */}
-      <section className="border-2 border-red-800 w-[90%] h-3/5 m-auto"></section>
+      <section className="border-2 border-red-800 w-[90%] h-3/5 m-auto">
+        <div className="line w-24 border-2 border-secondaryColor mx-auto mt-10 rounded"></div>
+      </section>
     </div>
   );
 }
