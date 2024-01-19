@@ -75,7 +75,7 @@ function Home() {
       {/* Why customers love us */}
       <section className="border-2 border-red-800 w-[90%] h-3/5 m-auto">
         <div className="w-24 border-2 border-secondaryColor mx-auto mt-10 rounded mb-11"></div>
-        <h2 className="text-3xl text-center">
+        <h2 className="text-xl md:text-3xl text-center">
           Why customers love <br />
           <span className="font-bold">working with us</span>
         </h2>
