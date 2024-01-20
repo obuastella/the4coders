@@ -73,12 +73,16 @@ function Home() {
         alt="team-img"
       />
       {/* Why customers love us */}
-      <section className="border-2 border-red-800 w-[90%] h-3/5 m-auto">
+      <section className="border-2 border-red-800 w-[90%] h-5/6 m-auto">
         <div className="w-24 border-2 border-secondaryColor mx-auto mt-10 rounded mb-11"></div>
         <h2 className="text-xl md:text-3xl text-center">
           Why customers love <br />
           <span className="font-bold">working with us</span>
         </h2>
+        <div className="flex justify-between mt-10">
+          <div className="w-1/2 border-2 border-pink-200 h-96"></div>
+          <div className="w-1/2 border-2 border-orange-700 h-96"></div>
+        </div>
       </section>
     </div>
   );
