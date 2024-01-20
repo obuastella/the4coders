@@ -79,14 +79,12 @@ function Home() {
           Why customers love <br />
           <span className="font-bold">working with us</span>
         </h2>
-        <div className="w-1/2 border-2 border-pink-200 h-96 mx-auto mt-10">
-          <p>
-            Without any doubt I recommend Alcaline Solutions as one of the best
-            web design and digital marketing agencies. One of the best agencies
-            I’ve came across so far. Wouldn’t be hesitated to introduce their
-            work to someone else.
-          </p>
-        </div>
+        <p className="w-1/2  h-96 mx-auto mt-10 text-center text-2xl text-gray-400 font-light">
+          Without any doubt I recommend Alcaline Solutions as one of the best
+          web design and digital marketing agencies. One of the best agencies
+          I’ve came across so far. Wouldn’t be hesitated to introduce their work
+          to someone else.
+        </p>
       </section>
     </div>
   );
