@@ -85,6 +85,7 @@ function Home() {
           I’ve came across so far. Wouldn’t be hesitated to introduce their work
           to someone else.
         </p>
+        <div className="mt-12 w-full h-40 border-2 border-pink-500"></div>
       </section>
     </div>
   );
