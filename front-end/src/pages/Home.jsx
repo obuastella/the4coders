@@ -86,7 +86,7 @@ function Home() {
           I’ve came across so far. Wouldn’t be hesitated to introduce their work
           to someone else.
         </p>
-        <div className="mt-12 w-full h-40 border-2 border-blue-700">
+        <div className="mt-12 w-full h-40 border-2 border-blue-600">
           {/* This should be broken down into a component and mapped through */}
           <Profile />
         </div>
