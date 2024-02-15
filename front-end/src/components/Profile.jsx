@@ -10,7 +10,7 @@ export const Profile = () => {
         src="assets/images/customer1.png"
         alt="customer"
       />
-      <div className="w-24 border-2">
+      <div className="w-24 text-[#facc15]">
         <FontAwesomeIcon icon={faStar} />
         <FontAwesomeIcon icon={faStar} />
         <FontAwesomeIcon icon={faStar} />
