@@ -1,10 +1,14 @@
 export const Profile = () => {
   return (
     <>
-      <div className="w-24 h-24 shrink-0 grow-0 rounded-full bg-green-300 text-green-700 mb-2"></div>
+      <img
+        className="w-32 h-32 shrink-0 grow-0"
+        src="assets/images/customer1.png"
+        alt="customer"
+      />
       <div className="w-24 border-2">{/* Star Icons here */}</div>
-      <div className="text-primaryColor font-semibold">Name here</div>
-      <div className="">Occupation here</div>
+      <div className="text-primaryColor font-semibold">Romeena De silva</div>
+      <div className="">Lecturer</div>
     </>
   );
 };
