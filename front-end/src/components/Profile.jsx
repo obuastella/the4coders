@@ -4,13 +4,13 @@ import { faStar } from "@fortawesome/free-solid-svg-icons";
 
 export const Profile = () => {
   return (
-    <div className="mt-12 w-full border-2 border-blue-700">
+    <div className="w-40 border-2  border-red-800">
       <img
         className="w-32 h-32 shrink-0 grow-0"
         src="assets/images/customer1.png"
         alt="customer"
       />
-      <div className="w-24 text-[#facc15]">
+      <div className="w-24 text-[#facc15] m-auto">
         <FontAwesomeIcon icon={faStar} />
         <FontAwesomeIcon icon={faStar} />
         <FontAwesomeIcon icon={faStar} />

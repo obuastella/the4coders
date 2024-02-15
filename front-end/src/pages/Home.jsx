@@ -86,9 +86,10 @@ function Home() {
           I’ve came across so far. Wouldn’t be hesitated to introduce their work
           to someone else.
         </p>
-
-        {/* This should be broken down into a component and mapped through */}
-        <Profile />
+        <div className="mt-12 w-full border-2 border-blue-700">
+          {/* This should be broken down into a component and mapped through */}
+          <Profile />
+        </div>
       </section>
     </div>
   );
