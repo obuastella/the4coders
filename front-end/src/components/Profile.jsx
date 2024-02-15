@@ -1,6 +1,6 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faStar } from "@fortawesome/free-solid-svg-icons";
 
 export const Profile = () => {
   return (
@@ -11,7 +11,11 @@ export const Profile = () => {
         alt="customer"
       />
       <div className="w-24 border-2">
-        <FontAwesomeIcon icon={faEnvelope} />
+        <FontAwesomeIcon icon={faStar} />
+        <FontAwesomeIcon icon={faStar} />
+        <FontAwesomeIcon icon={faStar} />
+        <FontAwesomeIcon icon={faStar} />
+        <FontAwesomeIcon icon={faStar} />
         {/* <FontAwesomeIcon icon="fa-solid fa-star" /> */}
       </div>
       <div className="text-primaryColor font-semibold">Romeena De silva</div>
