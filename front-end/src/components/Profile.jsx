@@ -1,4 +1,7 @@
 import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+
 export const Profile = () => {
   return (
     <div className="mt-12 w-full border-2 border-blue-700">
@@ -7,7 +10,10 @@ export const Profile = () => {
         src="assets/images/customer1.png"
         alt="customer"
       />
-      <div className="w-24 border-2">{/* Star Icons here */}</div>
+      <div className="w-24 border-2">
+        <FontAwesomeIcon icon={faEnvelope} />
+        {/* <FontAwesomeIcon icon="fa-solid fa-star" /> */}
+      </div>
       <div className="text-primaryColor font-semibold">Romeena De silva</div>
       <div className="">Lecturer</div>
     </div>
