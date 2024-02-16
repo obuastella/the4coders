@@ -4,7 +4,7 @@ import { faStar } from "@fortawesome/free-solid-svg-icons";
 
 export const Profile = () => {
   return (
-    <div className="w-40 border-2  border-red-800">
+    <div className="w-40 border-2  border-red-800 bg-black flex flex-col justify-center items-center">
       <img
         className="w-32 h-32 shrink-0 grow-0"
         src="assets/images/customer1.png"
