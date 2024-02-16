@@ -48,25 +48,27 @@ export const Card = () => {
       <div className="mt-20">
         <Slider {...settings}>
           {data.map((d) => (
-            <div className="w-96 h-1/4 bg-bgColor border-2 p-4 text-black rounded-xl">
-              {/* <div className=" rounded-full bg-indigo-700 flex justify-center items-center"> */}
-              <img
-                className="rounded-full bg-indigo-700 p-2"
-                src={d.img}
-                alt=""
-              />{" "}
-              {/* </div> */}
-              <div className="flex flex-col justify-center items-center gap-4 p-4">
-                <p className="text-lg font-semibold">{d.name}</p>
-                <p>{d.review}</p>
-              </div>
-            </div>
+            <CardOutput d={d} key={d.name} />
           ))}
         </Slider>
       </div>
     </div>
   );
 };
+
+function CardOutput({ d }) {
+  return (
+    <div className="w-96 h-1/4 bg-bgColor border-2 p-4 text-black rounded-xl">
+      {/* <div className=" rounded-full bg-indigo-700 flex justify-center items-center"> */}
+      <img className="rounded-full bg-indigo-700 p-2" src={d.img} alt="" />{" "}
+      {/* </div> */}
+      <div className="flex flex-col justify-center items-center gap-4 p-4">
+        <p className="text-lg font-semibold">{d.name}</p>
+        <p>{d.review}</p>
+      </div>
+    </div>
+  );
+}
 
 const data = [
   {
