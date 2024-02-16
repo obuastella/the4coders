@@ -2,9 +2,11 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar } from "@fortawesome/free-solid-svg-icons";
 
+import ratings from "../ratings.json";
 export const Profile = () => {
+  console.log(ratings);
   return (
-    <div className="w-40 border-2  border-red-800 bg-black flex flex-col justify-center items-center">
+    <div className="w-40 flex flex-col justify-center items-center">
       <img
         className="w-32 h-32 shrink-0 grow-0"
         src="assets/images/customer1.png"
