@@ -1,5 +1,5 @@
-import { Card } from "../components/Card";
-import { Profile } from "../components/Profile";
+import { Card } from "../../components/Card";
+import { Profile } from "./Components/Profile";
 
 function Home() {
   return (
