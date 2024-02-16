@@ -1,12 +1,12 @@
 [
   {
     "name": "user 1",
-    "img": "assets/images/customer1/png",
+    "img": "./assets/images/customer1.png",
     "occupation": "Lecturer"
   },
   {
     "name": "user 2",
-    "img": "assets/images/customer2/png",
+    "img": "./assets/images/customer2.png",
     "occupation": "HOD"
   }
 ]

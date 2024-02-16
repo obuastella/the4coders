@@ -87,7 +87,6 @@ function Home() {
           to someone else.
         </p>
         <div className="mt-12 w-full border-2 border-blue-700">
-          {/* This should be broken down into a component and mapped through */}
           <Profile />
         </div>
       </section>
