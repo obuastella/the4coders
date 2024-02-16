@@ -7,9 +7,9 @@ export const Profile = () => {
   const ratings = ratingsData;
 
   return (
-    <div className="w-40 flex flex-col justify-center items-center">
+    <div className="mt-12 w-full flex justify-center">
       {ratings.map((rating) => (
-        <>
+        <div className="w-40 flex flex-col justify-center items-center">
           <img
             className="w-32 h-32 shrink-0 grow-0"
             src={rating.img}
@@ -21,11 +21,10 @@ export const Profile = () => {
             <FontAwesomeIcon icon={faStar} />
             <FontAwesomeIcon icon={faStar} />
             <FontAwesomeIcon icon={faStar} />
-            {/* <FontAwesomeIcon icon="fa-solid fa-star" /> */}
           </div>
           <h2 className="text-primaryColor font-semibold">{rating.name}</h2>
           <p className="">{rating.occupation}</p>
-        </>
+        </div>
       ))}
     </div>
   );

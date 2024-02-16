@@ -74,7 +74,7 @@ function Home() {
         alt="team-img"
       />
       {/* Why customers love us */}
-      <section className="border-2 border-red-800 w-[90%] h-5/6 m-auto">
+      <section className="border-2 border-red-800 w-[90%] m-auto">
         <div className="w-24 border-2 border-secondaryColor mx-auto mt-10 rounded mb-11"></div>
         <h2 className="text-xl md:text-3xl text-center">
           Why customers love <br />
@@ -86,9 +86,8 @@ function Home() {
           I’ve came across so far. Wouldn’t be hesitated to introduce their work
           to someone else.
         </p>
-        <div className="mt-12 w-full border-2 border-blue-700">
-          <Profile />
-        </div>
+
+        <Profile />
       </section>
     </div>
   );
