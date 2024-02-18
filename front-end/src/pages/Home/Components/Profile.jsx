@@ -7,7 +7,7 @@ export const Profile = () => {
   const ratings = ratingsData;
 
   return (
-    <div className="mt-12 w-full flex justify-center">
+    <div className="mt-12 w-full flex justify-center flex-wrap">
       {ratings.map((rating) => (
         <ProfileRating ratingObj={rating} key={rating.name} />
       ))}

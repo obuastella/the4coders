@@ -74,21 +74,22 @@ function Home() {
         alt="team-img"
       />
       {/* Why customers love us */}
-      <section className="border-2 border-red-800 w-[90%] m-auto mb-8">
+      <section className=" mt-10 w-[90%] m-auto mb-8">
         <div className="w-24 border-2 border-secondaryColor mx-auto mt-10 rounded mb-11"></div>
         <h2 className="text-xl md:text-3xl text-center">
           Why customers love <br />
           <span className="font-bold">working with us</span>
         </h2>
-        <p className="w-11/12 md:w-9/12 lg:w-3/6 mx-auto mt-10 text-center sm:text-lg md:text-2xl text-lg text-gray-400 font-light">
+        <p className="w-11/12 md:w-9/12 lg:w-3/6 mx-auto mt-10 text-center text-md sm:text-lg md:text-xl  text-gray-400 font-light">
           Without any doubt I recommend Alcaline Solutions as one of the best
           web design and digital marketing agencies. One of the best agencies
           I’ve came across so far. Wouldn’t be hesitated to introduce their work
           to someone else.
         </p>
-
         <Profile />
       </section>
+
+      {/* Recent Studies */}
     </div>
   );
 }
