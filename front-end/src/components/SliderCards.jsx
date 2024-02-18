@@ -2,7 +2,7 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-export const Card = () => {
+export const SliderCards = () => {
   function SampleNextArrow(props) {
     const { className, style, onClick } = props;
     return (

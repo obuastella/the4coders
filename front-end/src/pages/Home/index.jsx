@@ -1,4 +1,5 @@
-import { Card } from "../../components/Card";
+// import { Card } from "../../components/Card";
+import { SliderCards } from "../../components/SliderCards";
 import { Profile } from "./Components/Profile";
 
 function Home() {
@@ -32,7 +33,7 @@ function Home() {
           <h1 className="font-semibold text-3xl text-center my-14">
             Services we offer
           </h1>
-          <Card />
+          <SliderCards />
         </div>
       </section>
       {/* Leading Companies */}
@@ -90,6 +91,7 @@ function Home() {
       </section>
 
       {/* Recent Studies */}
+      <section className=" mt-10 w-[90%] m-auto mb-8"></section>
     </div>
   );
 }
