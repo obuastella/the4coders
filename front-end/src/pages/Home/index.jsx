@@ -70,7 +70,7 @@ function Home() {
         </h2>
       </aside>
       <img
-        className="md:w-[100%] m-auto mt-[4%] rounded md:h-1/5 mb-8"
+        className="md:w-[100%] m-auto mt-[4%] rounded md:h-1/5 mb-12"
         src="assets/images/sponsor-img.png"
         alt="team-img"
       />
@@ -91,7 +91,26 @@ function Home() {
       </section>
 
       {/* Recent Studies */}
-      <section className=" mt-10 w-[90%] m-auto mb-8"></section>
+      <section className=" mt-10 w-[90%] m-auto mb-8 border-2 border-green-700 h-[80%]">
+        {/* Creating the card */}
+        <div className="w-100 h-[50%] border-2 border-blue-400 flex flx-row">
+          <img
+            className="w-[50%] border-2"
+            src="assets/images/case-study-img1.png"
+            alt=""
+          />
+          <div className="w-[50%]">
+            <h2>Website Design for SCFC Canada</h2>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptatibus aliquam mollitia, optio cum dolores quod quibusdam
+              sapiente iure. Ullam veritatis eum enim fugiat omnis maiores
+              soluta aliquid molestias dolorem amet?
+            </p>
+            <button>Read More &gt;</button>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
