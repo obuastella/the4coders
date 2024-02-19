@@ -99,15 +99,17 @@ function Home() {
             src="assets/images/case-study-img1.png"
             alt=""
           />
-          <div className="w-[50%] m-auto border-2 border-pink-400 p-10 relative">
-            <h2 className="text-2xl ">Website Design for SCFC Canada</h2>
+          <div className="w-[50%] m-auto border-2 border-pink-400 p-10 flex flex-col">
+            <h2 className="text-2xl font-bold">
+              Website Design for SCFC Canada
+            </h2>
             <p>
               Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Voluptatibus aliquam mollitia, optio cum dolores quod quibusdam
               sapiente iure. Ullam veritatis eum enim fugiat omnis maiores
               soluta aliquid molestias dolorem amet?
             </p>
-            <button className="absolute end-12 inline border-2 border-red-600">
+            <button className="inline-block border-2 border-red-600">
               Read More &gt;
             </button>
           </div>
