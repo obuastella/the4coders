@@ -1,4 +1,5 @@
 // import { Card } from "../../components/Card";
+import Card from "../../components/Card";
 import { SliderCards } from "../../components/SliderCards";
 import { Profile } from "./Components/Profile";
 
@@ -91,30 +92,10 @@ function Home() {
       </section>
 
       {/* Recent Studies */}
-      <section className=" mt-10 w-[90%] m-auto mb-8 border-2 border-green-700 h-[80%]">
-        {/* Creating the card */}
-        <div className="w-100 h-[50%] border-2 border-blue-400 flex flx-row">
-          <img
-            className="w-[50%] border-2"
-            src="assets/images/case-study-img1.png"
-            alt=""
-          />
-          <div className="w-[50%] m-auto border-2 border-pink-400 p-10 flex flex-col">
-            <h2 className="text-2xl font-bold">
-              Website Design for SCFC Canada
-            </h2>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Voluptatibus aliquam mollitia, optio cum dolores quod quibusdam
-              sapiente iure. Ullam veritatis eum enim fugiat omnis maiores
-              soluta aliquid molestias dolorem amet?
-            </p>
-            <button className="inline-block border-2 border-red-600">
-              Read More &gt;
-            </button>
-          </div>
-        </div>
-      </section>
+      {/* Creating the card */}
+      <Card />
+      <Card />
+      <Card />
     </div>
   );
 }
