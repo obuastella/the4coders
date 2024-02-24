@@ -1,11 +1,11 @@
 function SmallCard() {
   return (
     <div className="w-[40%] h-44 border-2 flex flex-wrap items-center bg-white rounded p-2">
-      <div className="w-20 h-20 border-2 border-brown-300 rounded">
+      <div className="w-20 h-20 border-2 border-brown-300 rounded bg-black">
         <img
           class="rounded-full w-20 h-20"
           src="./assets/images/customer1.png"
-          alt="img here"
+          alt="rocket"
         />
       </div>
       <div className="w-[80%] ms-2">
