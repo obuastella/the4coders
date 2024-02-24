@@ -1,5 +1,6 @@
 // import { Card } from "../../components/Card";
 import Card from "../../components/Card";
+import Line from "../../components/Line";
 import { SliderCards } from "../../components/SliderCards";
 import { Profile } from "./Components/Profile";
 
@@ -77,7 +78,7 @@ function Home() {
       />
       {/* Why customers love us */}
       <section className=" mt-10 w-[90%] m-auto mb-8">
-        <div className="w-24 border-2 border-secondaryColor mx-auto mt-10 rounded mb-11"></div>
+        <Line />
         <h2 className="text-xl md:text-3xl text-center">
           Why customers love <br />
           <span className="font-bold">working with us</span>
@@ -98,10 +99,17 @@ function Home() {
         <Card />
         <Card />
       </section>
-      {/* Way of building great software */}
-      <h2 className="text-center text-2xl ">
-        Way of building <br /> <span className="font-bold">Great Software</span>
+      {/* Our Design and Development Approach */}
+
+      <Line />
+      <h2 className="text-center text-2xl">
+        Our design and <br />{" "}
+        <span className="font-bold">Development approach</span>
       </h2>
+
+      <section className="w-[90%] m-auto h-5/6 border-2 border-blue-700">
+        hello
+      </section>
     </>
   );
 }
