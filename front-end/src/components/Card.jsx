@@ -1,9 +1,9 @@
 function Card() {
   return (
     <>
-      <div className="w-[90%] bg-bgColor h-[50%] mx-auto flex flex-row justify-between flex-wrap">
+      <div className="my-10 w-[90%] bg-bgColor h-[40%] mx-auto flex flex-row justify-between flex-wrap rounded">
         <img
-          className="w-[50%] h-[100%] border-2"
+          className="w-[50%] h-[100%] border-2 rounded"
           src="assets/images/case-study-img1.png"
           alt=""
         />
