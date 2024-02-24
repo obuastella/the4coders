@@ -5,7 +5,7 @@ import { Profile } from "./Components/Profile";
 
 function Home() {
   return (
-    <div className=" h-screen">
+    <>
       {/* Hero Section */}
       <section className="w-[90%] m-auto flex flex-col md:flex-row md:flex-wrap">
         <div className="mt-14 w-full md:w-2/4 flex flex-col justify-center gap-10">
@@ -93,10 +93,16 @@ function Home() {
 
       {/* Recent Studies */}
       {/* Creating the card */}
-      <Card />
-      <Card />
-      <Card />
-    </div>
+      <section className="bg-bgColor flex flex-col flex-wrap my-20">
+        <Card />
+        <Card />
+        <Card />
+      </section>
+      {/* Way of building great software */}
+      <h2 className="text-center text-2xl ">
+        Way of building <br /> <span className="font-bold">Great Software</span>
+      </h2>
+    </>
   );
 }
 
