@@ -110,7 +110,7 @@ function Home() {
         Our design and <br />{" "}
         <span className="font-bold">Development approach</span>
       </h2>
-      <section className="bg-bgColor h-5/6 border-2 border-blue-700 flex flex-wrap justify-between gap-5 p-3">
+      <section className="bg-bgColor h-5/6 flex flex-wrap justify-center gap-5 p-3 my-6">
         <SmallCard />
         <SmallCard />
         <SmallCard />

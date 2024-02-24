@@ -1,12 +1,14 @@
 function SmallCard() {
   return (
-    <div className="w-[49%] h-32 border-2 border-red-300 flex flex-wrap items-center">
-      <img
-        class="rounded-full w-24 h-24"
-        src="./assets/images/customer1.png"
-        alt="img here"
-      />
-      <div className="w-[80%]">
+    <div className="w-[40%] h-44 border-2 flex flex-wrap items-center bg-white rounded p-2">
+      <div className="w-20 h-20 border-2 border-brown-300 rounded">
+        <img
+          class="rounded-full w-20 h-20"
+          src="./assets/images/customer1.png"
+          alt="img here"
+        />
+      </div>
+      <div className="w-[80%] ms-2">
         <h4 className="font-bold text-xl">UX Driven Engineering</h4>
         <p className="text-wrap">
           Unlike other companies, we are a UX first development company.
