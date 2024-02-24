@@ -2,6 +2,7 @@
 import Card from "../../components/Card";
 import Line from "../../components/Line";
 import { SliderCards } from "../../components/SliderCards";
+import SmallCard from "../../components/SmallCard";
 import { Profile } from "./Components/Profile";
 
 function Home() {
@@ -77,7 +78,7 @@ function Home() {
         alt="team-img"
       />
       {/* Why customers love us */}
-      <section className=" mt-10 w-[90%] m-auto mb-8">
+      <section className=" mt-10 w-[90%] m-auto mb-12">
         <Line />
         <h2 className="text-xl md:text-3xl text-center">
           Why customers love <br />
@@ -94,6 +95,11 @@ function Home() {
 
       {/* Recent Studies */}
       {/* Creating the card */}
+      <Line />
+      <h2 className="text-center text-2xl">
+        Our recent
+        <br /> <span className="font-bold">Case Studies</span>
+      </h2>
       <section className="bg-bgColor flex flex-col flex-wrap my-20">
         <Card />
         <Card />
@@ -106,9 +112,11 @@ function Home() {
         Our design and <br />{" "}
         <span className="font-bold">Development approach</span>
       </h2>
-
-      <section className="w-[90%] m-auto h-5/6 border-2 border-blue-700">
-        hello
+      <section className="w-[90%] m-auto h-5/6 border-2 border-blue-700 flex flex-wrap p-3 justify-between">
+        <SmallCard />
+        <SmallCard />
+        <SmallCard />
+        <SmallCard />
       </section>
     </>
   );
