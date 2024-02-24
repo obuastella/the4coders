@@ -7,7 +7,7 @@ function Card() {
           src="assets/images/case-study-img1.png"
           alt=""
         />
-        <div className="w-[50%] p-10 flex flex-col justify-start">
+        <div className="w-[50%] h-40 p-10 flex flex-col justify-start">
           <h2 className="text-2xl font-bold">Website Design for SCFC Canada</h2>
           <p>
             Born out of a vision, a single-minded objective that puts service

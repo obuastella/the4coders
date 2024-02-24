@@ -94,7 +94,6 @@ function Home() {
       </section>
 
       {/* Recent Studies */}
-      {/* Creating the card */}
       <Line />
       <h2 className="text-center text-2xl">
         Our recent
@@ -106,13 +105,14 @@ function Home() {
         <Card />
       </section>
       {/* Our Design and Development Approach */}
-
       <Line />
       <h2 className="text-center text-2xl">
         Our design and <br />{" "}
         <span className="font-bold">Development approach</span>
       </h2>
-      <section className="w-[90%] m-auto h-5/6 border-2 border-blue-700 flex flex-wrap p-3 justify-between">
+      <section className="bg-bgColor h-5/6 border-2 border-blue-700 flex flex-wrap justify-between gap-5 p-3">
+        <SmallCard />
+        <SmallCard />
         <SmallCard />
         <SmallCard />
         <SmallCard />
