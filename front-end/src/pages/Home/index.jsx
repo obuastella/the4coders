@@ -118,6 +118,9 @@ function Home() {
         <SmallCard />
         <SmallCard />
       </section>
+      {/* Featured Resources */}
+      <Line />
+      <section></section>
     </>
   );
 }
