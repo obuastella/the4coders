@@ -120,7 +120,12 @@ function Home() {
       </section>
       {/* Featured Resources */}
       <Line />
-      <section></section>
+      <section>
+        <h2 className="text-2xl text-center">
+          Featured <br />
+          <span className="font-bold">Resources</span>
+        </h2>
+      </section>
     </>
   );
 }
