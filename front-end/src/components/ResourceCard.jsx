@@ -1,24 +1,24 @@
 function ResourceCard() {
   const resourceData = [
     {
-      img: "./assets/images/resource-img2.png",
-      text: " How to build a Scalable Application up to 1 million users on AWS blah blah",
+      img: "./assets/images/resource-img1.png",
+      text: " How to build a Scalable Application up to 1 million users on AWS",
     },
     {
       img: "./assets/images/resource-img2.png",
-      text: " How to build a Scalable Application up to 1 million users on AWS blah blah",
+      text: " How to build a Scalable Application up to 1 million users on AWS",
+    },
+    {
+      img: "./assets/images/resource-img4.png",
+      text: " How to build a Scalable Application up to 1 million users on AWS",
     },
     {
       img: "./assets/images/resource-img2.png",
-      text: " How to build a Scalable Application up to 1 million users on AWS blah blah",
+      text: " How to build a Scalable Application up to 1 million users on AWS",
     },
     {
-      img: "./assets/images/resource-img2.png",
-      text: " How to build a Scalable Application up to 1 million users on AWS blah blah",
-    },
-    {
-      img: "./assets/images/resource-img2.png",
-      text: " How to build a Scalable Application up to 1 million users on AWS blah blah",
+      img: "./assets/images/resource-img3.png",
+      text: " How to build a Scalable Application up to 1 million users on AWS",
     },
   ];
 
@@ -28,7 +28,7 @@ function ResourceCard() {
         <>
           <div className="w-50 h-50" key={data.text}>
             <img className="w-50 h-50" src={data.img} alt="laptop-img" />
-            <p className=" max-w-64">{data.text}</p>
+            <p className="mt-3 max-w-64">{data.text}</p>
             <button className=" float-right">Read more &rarr;</button>
           </div>
         </>
@@ -36,5 +36,4 @@ function ResourceCard() {
     </div>
   );
 }
-// To do add key value
 export default ResourceCard;
