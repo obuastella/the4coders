@@ -2,7 +2,7 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar } from "@fortawesome/free-solid-svg-icons";
 
-import ratingsData from "../ratings.json";
+import ratingsData from "../pages/Home/ratings.json";
 export const Profile = () => {
   const ratings = ratingsData;
 

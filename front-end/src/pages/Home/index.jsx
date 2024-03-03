@@ -3,7 +3,7 @@ import Card from "../../components/Card";
 import Line from "../../components/Line";
 import { SliderCards } from "../../components/SliderCards";
 import SmallCard from "../../components/SmallCard";
-import { Profile } from "./Components/Profile";
+import { Profile } from "../../components/Profile";
 
 function Home() {
   return (
@@ -125,6 +125,13 @@ function Home() {
           Featured <br />
           <span className="font-bold">Resources</span>
         </h2>
+        <div className="resources-card">
+          <div className="w-[40%] h-[40%] border-2"></div>
+          <p>
+            How to build a Scalable Application up to 1 million users on AWS
+          </p>
+          <button>Read more &gt;</button>
+        </div>
       </section>
     </>
   );
