@@ -128,6 +128,8 @@ function Home() {
         </h2>
         <ResourceCard />
       </section>
+      {/* Hire the best Developers */}
+      <section className="w-[90%] m-auto my-10 border-2 border-green-300 h-60 bg-gray-200"></section>
     </>
   );
 }
