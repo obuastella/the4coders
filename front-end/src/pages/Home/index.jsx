@@ -129,7 +129,14 @@ function Home() {
         <ResourceCard />
       </section>
       {/* Hire the best Developers */}
-      <section className="w-[90%] m-auto my-10 border-2 border-green-300 h-60 bg-gray-200"></section>
+      <section className="w-[90%] m-auto my-28 rounded-lg h-60 bg-gray-200 flex justify-center md:justify-evenly items-center flex-wrap">
+        <p className="text-3xl md:text-start text-center font-bold">
+          Hire the best developers and <p>designers around!</p>
+        </p>
+        <button className="text-white text-center font-semibold bg-orange-400 p-4 rounded-lg">
+          Hire Top Developers
+        </button>
+      </section>
     </>
   );
 }
