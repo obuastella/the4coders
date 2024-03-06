@@ -185,7 +185,7 @@ function Home() {
                 <h2 class="mb-6 text-sm font-semibold text-gray-900 uppercase">
                   Legal
                 </h2>
-                <ul class="text-gray-5000 font-medium">
+                <ul class="text-gray-500 font-medium">
                   <li class="mb-4">
                     <a href="#" class="hover:underline">
                       Privacy Policy
@@ -270,10 +270,7 @@ function Home() {
                 </svg>
                 <span class="sr-only">GitHub account</span>
               </a>
-              <a
-                href="#"
-                className="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5"
-              >
+              <a href="#" className="text-gray-500 hover:text-gray-900 ms-5">
                 <svg
                   className="w-4 h-4"
                   aria-hidden="true"
@@ -287,7 +284,7 @@ function Home() {
                     clip-rule="evenodd"
                   />
                 </svg>
-                <span className="sr-only">Dribbble account</span>
+                <span className="sr-only">something here</span>
               </a>
             </div>
           </div>
