@@ -284,7 +284,7 @@ function Home() {
                     clip-rule="evenodd"
                   />
                 </svg>
-                <span className="sr-only"> footer</span>
+                <span className="sr-only"> footer here</span>
               </a>
             </div>
           </div>
